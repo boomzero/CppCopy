@@ -2,6 +2,7 @@
 #include <sstream>
 #include <stdio.h>
 #include <memory>
+#include <string>
 #include <stdexcept>
 std::string exec(const char* cmd) {
     std::array<char, 128> buffer;
