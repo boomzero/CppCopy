@@ -16,11 +16,11 @@ std::string exec(const char* cmd) {
     }
     return result;
 }
-std::string pasteit()
+std::string paste()
 {
   return exec("pbpaste");
 }
-std::string copyit(const char * new_clipboard)
+std::string copy(const char * new_clipboard)
 {
   std::stringstream cmd;
   cmd << "echo \"" << new_clipboard << "\" | pbcopy";
