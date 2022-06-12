@@ -1,1 +1,1 @@
-copy text in c++ on macOS
+copy and paste text in c++ on macOS
