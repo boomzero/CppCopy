@@ -27,6 +27,10 @@ std::string copy(const char * new_clipboard)
   cmd << "echo \"" << new_clipboard << "\" | pbcopy";
   return exec(cmd.str().c_str());
 }
+std::string copystring(std::string new_clipboard){
+    const char* copydata = new_clipboard.data();
+    copy(copydata);
+}
 int main(){
-  
+    
 }
