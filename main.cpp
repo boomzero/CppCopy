@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <memory>
 #include <string>
+#include <array> 
 #include <stdexcept>
 std::string exec(const char* cmd) {
     std::array<char, 128> buffer;
